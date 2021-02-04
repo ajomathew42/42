@@ -17,9 +17,7 @@ void    main(void)
 	{
 	  number[2] = number[1] + 1;
 	  while (number[2] <= '9')
-	  {
-	    ft_putchar(number[0]);
-	    ft_putchar(number[1]);
+	  { ft_putchar(number[0]); ft_putchar(number[1]);
 	    ft_putchar(number[2]);
 	    if (!(number[0] == '7' && number[1] == '8' && number[2] == '9'))
 	    {
